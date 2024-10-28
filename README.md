@@ -15,12 +15,12 @@ The following shows the LDBC SNB dataset in two data models.
 
 ### 1. Graph data model
 <p align="center">
-<img src="https://github.com/Geonho-Lee/chimera-ldbc-demo/blob/master/img/Graph%20schema.png" width=80%>
+<img src="https://github.com/swstarlab-infolab/ldbc-complex-benchmark/blob/master/img/Graph%20schema.png" width=80%>
 </p>
 
 ### 2. Relational data model
 <p align="center">
-<img src="https://github.com/Geonho-Lee/chimera-ldbc-demo/blob/master/img/Relational%20schema.png" width=100%>
+<img src="https://github.com/swstarlab-infolab/ldbc-complex-benchmark/blob/master/img/Relational%20schema.png" width=100%>
 </p>
 
 
@@ -72,7 +72,7 @@ Chimera is built on top of postgresql and supports all [postgresql-compatible cl
 The following shows a connection via the psql CLI as a representative example. 
 
 <p align="center">
-<img src="https://github.com/Geonho-Lee/chimera-ldbc-demo/blob/master/img/psql%20CLI.png" width=100%>
+<img src="https://github.com/swstarlab-infolab/ldbc-complex-benchmark/blob/master/img/psql%20CLI.png" width=100%>
 </p>
 
 
@@ -92,7 +92,7 @@ The recommended environment is that the benchmark scripts (Bash) and the LDBC dr
 To clone a project with submodules, run: 
 
 ```bash
-git clone --recurse-submodules git@github.com:Geonho-Lee/chimera-ldbc-demo.git
+git clone --recurse-submodules git@github.com:swstarlab-infolab/ldbc-complex-benchmark.git
 ```
 
 To install dependencies, run:
