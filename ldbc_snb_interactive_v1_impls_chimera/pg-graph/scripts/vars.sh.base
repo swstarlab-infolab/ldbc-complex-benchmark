@@ -1,0 +1,18 @@
+cd "$( cd "$( dirname "${BASH_SOURCE[0]:-${(%):-%x}}" )" >/dev/null 2>&1 && pwd )"
+cd ..
+
+export PG_GRAPH_DOCKER_IMAGE=geonholee/pg_graph
+export PG_GRAPH_CONTAINER_NAME=snb-interactive-pg-graph
+export PG_GRAPH_PASSWORD=mysecretpassword
+export PG_GRAPH_DATABASE=ldbcsnb
+export PG_GRAPH_USER=postgres
+export PG_GRAPH_DATA_DIR=(PG_GRAPH_DATA_DIR)
+export PG_GRAPH_PORT=5432
+export PG_GRAPH_SHM_SIZE=(PG_GRAPH_SHM_SIZE)
+export PG_GRAPH_VERSION=(PG_GRAPH_VERSION)
+
+if [[ `uname -m` == "arm64" ]]; then
+    export PG_GRAPH_DOCKER_PLATFORM_FLAG="--platform linux/arm64"
+else
+    export PG_GRAPH_DOCKER_PLATFORM_FLAG=""
+fi

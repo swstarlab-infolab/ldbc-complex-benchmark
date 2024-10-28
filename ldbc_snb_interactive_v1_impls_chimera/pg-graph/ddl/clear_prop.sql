@@ -1,0 +1,12 @@
+DROP TABLE city_ispartof_country_prop;
+DROP TABLE country_ispartof_continent_prop;
+DROP TABLE forum_containerof_message_prop;
+DROP TABLE forum_hasmoderator_person_prop;
+DROP TABLE forum_hastag_tag_prop;
+DROP TABLE message_hascreator_person_prop;
+DROP TABLE message_hastag_tag_prop;
+DROP TABLE message_replyof_message_prop;
+DROP TABLE person_hasinterest_tag_prop;
+DROP TABLE person_islocatedin_city_prop;
+DROP TABLE tag_hastype_tc_prop;
+DROP TABLE tc_issubclassof_tc_prop;
